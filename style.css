@@ -1,0 +1,463 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  background-color: black;
+}
+h2 {
+  color: #c4cccc;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  margin:0 0 10px; 
+  padding:0; 
+  font-weight:600; 
+  font-weight:bold;
+}
+
+h3 {
+  color: #c4cccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 0;
+  margin:0 0 10px; 
+  padding:0; 
+  font-weight:600; 
+  font-weight:bold;
+  line-height:1.3;
+}
+
+
+a {
+  color: #22c7cd;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+ }
+ 
+ a:hover {
+  color: #c4cccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+ }
+ 
+ 
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+p1 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+
+p2 {
+  color: orange;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+p3 {
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+p7 {
+  color: lightgreen;
+  font-family: 'Roboto', sans-serif;
+font-size: 23px;
+}
+
+p8 {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+font-size: 32px;
+}
+
+p18 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+
+
+p19 {
+  color: #c4cccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height:1.3;
+}
+
+
+p1911 {
+  color: #c4cccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height:1.3;
+}
+
+p1901 {
+  color: #c4cccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+p1902 {
+  color: #c4cccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height:1.5;
+}
+
+p1903 {
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  line-height:1.5;
+}
+
+
+p1904 {
+  color: #22c7cd;
+  font-family: 'Roboto', sans-serif;
+  font-size: 90px;
+}
+
+
+p30 {
+  color: #909434;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+p31 {
+  color: #3d91e0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+p32 {
+  color: #952b60;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+p33 {
+  color: #f1b620;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+p34 {
+  color: #f9521e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+p35 {
+  color: #d920f1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+p36 {
+  color: #cef120;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+p191 {
+  color: #c4cccc;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+p1919 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+
+p291 {
+  color: #22c7cd;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+p401 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+p402 {
+  color: orange;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+p403 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+p404 {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+
+p405 {
+  color: lightgreen;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+p406 {
+  color: yellow;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+p407 {
+  color: lightyellow;
+  font-family: 'Roboto', sans-serif;
+font-size: 18px;
+}
+
+p4011 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+p4031 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+p3111 {
+  color: #3d91e0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+p4041 {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: bold;
+}
+
+
+p40411 {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+font-size: 65px;
+font-weight: bold;
+}
+
+p40111 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+font-size: 65px;
+font-weight: bold;
+}
+
+
+
+p40303 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+
+p40404 {
+  color: #42e0f5;
+  font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+
+p40405 {
+  color: #f54542;
+  font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+
+p40407 {
+  color: #4284f5;
+  font-family: 'Roboto', sans-serif;
+font-size: 20px;
+}
+
+
+
+p501 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+font-size: 14px;
+}
+
+p5011 {
+  text-align: right;
+}
+
+
+p591 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+p592 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p593 {
+  color: orange;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p594 {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p595 {
+  color: lightgreen;
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p503 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+font-size: 23px;
+}
+
+p801 {
+  color: yellow;
+  font-family: 'Roboto', sans-serif;
+font-size: 15px;
+}
+
+p802 {
+  color: #2C67C5;
+  font-family: 'Roboto', sans-serif;
+font-size: 15px;
+}
+
+p803 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+font-size: 15px;
+}
+
+
+p403031 {
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+font-size: 40px;
+}
+
+p403032 {
+  color: #22c7cd;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+  margin:0 0 10px; 
+  padding:0; 
+  font-weight:600; 
+  font-weight:bold;
+}
+
+ul {
+    color: #c4cccc;
+	font-size: 16px;
+	line-height:1.4;
+  font-family: 'Roboto', sans-serif;
+}
+
+#table_id {
+  display: block;
+  width:100%
+}
+
+#table_id tr {
+  display: inline-block;
+  width:100%
+}
+
+#table_id td {
+  display: inline-block;
+}
+
+.header {
+                   background-color: #000000;
+                        /* Stick to the left */
+                        left: 0;
+                        position: sticky;
+
+                        /* Displayed on top of other rows when scrolling */
+                        z-index: 9999;
+                    }
+					
+					
+					
+					
+p604 {
+  color: green;
+  font-family: 'Roboto', sans-serif;
+font-size: 17px;
+font-weight: bold;
+}
+
+p601 {
+  color: red;
+  font-family: 'Roboto', sans-serif;
+font-size: 17px;
+font-weight: bold;
+}
+
+
+#table_1 {
+  display: block;
+  width:100%
+}
+
+#table_1 tr {
+  display: inline-block;
+  width:100%
+}
+
+#table_1 td {
+  display: inline-block;
+}
