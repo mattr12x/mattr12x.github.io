@@ -1,0 +1,81 @@
+dataset,currentDateTime,value
+GBP,23 Jan,8
+NZD,23 Jan,7
+EUR,23 Jan,6
+AUD,23 Jan,5
+JPY,23 Jan,4
+CHF,23 Jan,3
+CAD,23 Jan,2
+USD,23 Jan,1
+AUD,24 Jan,8
+NZD,24 Jan,7
+GBP,24 Jan,6
+EUR,24 Jan,5
+CAD,24 Jan,4
+CHF,24 Jan,3
+USD,24 Jan,2
+JPY,24 Jan,1
+AUD,25 Jan,8
+NZD,25 Jan,7
+EUR,25 Jan,6
+GBP,25 Jan,5
+CAD,25 Jan,4
+CHF,25 Jan,3
+JPY,25 Jan,2
+USD,25 Jan,1
+AUD,26 Jan,8
+GBP,26 Jan,7
+EUR,26 Jan,6
+NZD,26 Jan,5
+CHF,26 Jan,4
+JPY,26 Jan,3
+CAD,26 Jan,2
+USD,26 Jan,1
+AUD,27 Jan,8
+NZD,27 Jan,7
+GBP,27 Jan,6
+CAD,27 Jan,5
+EUR,27 Jan,4
+CHF,27 Jan,3
+USD,27 Jan,2
+JPY,27 Jan,1
+AUD,30 Jan,8
+NZD,30 Jan,7
+CAD,30 Jan,6
+GBP,30 Jan,5
+JPY,30 Jan,4
+EUR,30 Jan,3
+CHF,30 Jan,2
+USD,30 Jan,1
+AUD,31 Jan,8
+NZD,31 Jan,7
+EUR,31 Jan,6
+GBP,31 Jan,5
+CAD,31 Jan,4
+JPY,31 Jan,3
+USD,31 Jan,2
+CHF,31 Jan,1
+CHF,01 Feb,8
+CAD,01 Feb,7
+AUD,01 Feb,6
+EUR,01 Feb,5
+JPY,01 Feb,4
+USD,01 Feb,3
+GBP,01 Feb,2
+NZD,01 Feb,1
+AUD,02 Feb,8
+CHF,02 Feb,7
+EUR,02 Feb,6
+JPY,02 Feb,5
+NZD,02 Feb,4
+CAD,02 Feb,3
+GBP,02 Feb,2
+USD,02 Feb,1
+JPY,03 Feb / 03:11:56,8
+CHF,03 Feb / 03:11:56,7
+AUD,03 Feb / 03:11:56,6
+EUR,03 Feb / 03:11:56,5
+CAD,03 Feb / 03:11:56,4
+NZD,03 Feb / 03:11:56,3
+USD,03 Feb / 03:11:56,2
+GBP,03 Feb / 03:11:56,1
