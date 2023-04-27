@@ -1,7 +1,154 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-222150277-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-222150277-1');
+</script>
+<script src="https://code.jquery.com/jquery-latest.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+<link rel="stylesheet" href="../../../css/style.css">
+<script>
+   
+    $(document).ready(function(){
+		 $("#status").load("../../../status/status.html");
+        setInterval(function() {
+            $("#status").load("../../../status/status.html");
+        }, 1000);
+    });
+</script>
+<title>28forex.com - Exponential Moving Average</title></head>
+<body><a class="anchor" id="top"></a><br><h2>28forex.com - Real time forex indicator data, signals and alerts.</h2><h3>Know what the market is doing. Make confident trading decisions.</h3><hr>
+<p191>1 Day Exponential Moving Average (EMA) Trend</p191>
+<hr><a href="javascript:history.back()" style="font-size:13px;line-height:1.5">-Back-</a>
+
+
+<table style="width:850px;line-height:0.7">
+<tr>
+<td style="width:100%;text-align:center" colspan="3">
+	<div>
+		<canvas id="myChart"></canvas>
+	</div>
+	</td>
+</tr>
+
+
+
+</table>
+	<script>
+var chartColors = {
+	red: 'rgb(255, 99, 132)',
+	blue: 'rgb(54, 162, 235)'
+};
+
+var color = Chart.helpers.color;
+var config = {
+	type: 'line',
+	data: {
+		datasets: [{
+			borderColor: "#4284f5",
+			tension: 0.2,
+			fill: false
+		},{
+			borderColor: "#f54542",
+			tension: 0.2,
+			fill: false
+		} ,{
+			borderColor: "#f5ce42",
+			tension: 0.2,
+			fill: false
+		} ,{
+			borderColor: "#6cf542",
+			tension: 0.2,
+			fill: false
+		} ,{
+			borderColor: "#42e0f5",
+			tension: 0.2,
+			fill: false
+		} ,{
+			borderColor: "#8742f5",
+			tension: 0.2,
+			fill: false
+		} ,{
+			borderColor: "#3e95cd",
+			tension: 0.2,
+			fill: false
+		} ,{
+			borderColor: "#a85cbd",
+			tension: 0.2,
+			fill: false
+		}  ]
+	},
+	plugins: [ChartDataSource],
+	options: {
+		title: {
+			display: false,
+			text: ''
+		},
+		scales: {
+			xAxes: [{
+				scaleLabel: {
+					display: false,
+					labelString: 'n'
+				}
+			}],
+			yAxes: [{
+				id: 'strength',
+				gridLines: {
+					drawOnChartArea: false
+				},
+				scaleLabel: {
+					display: false,
+					
+				}
+			}]
+		},
+		plugins: {
+			datasource: {
+				type: 'csv',
+				url: 'EMAchart.csv',
+				delimiter: ',',
+				rowMapping: 'datapoint',
+				datapointLabels: true,
+				datapointLabelMapping: {
+					_dataset: 'dataset',
+					_index: 'currentDateTime',
+					x: 'currentDateTime',
+					y: 'value'
+						
+				}
+			}
+		}
+	
+	}
+};
+
+window.onload = function() {
+	var ctx = document.getElementById('myChart').getContext('2d');
+	window.myChart = new Chart(ctx, config);
+	
+
+};
+
+var getData = function() {
+myChart.update();
+};
+setInterval(getData, 2000);
+</script>
+<br>
+<a href = "../">Index</a> <p19>| Chart</p19><br>
+<br>
+
+<hr><div id="status"></div><hr>
+
+<br>
+<!-- <a href="../../Instructions/index.html#top">Instructions</a> -->
 </body>
 </html>
